@@ -23,7 +23,7 @@ async def congrats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(msg)
 
 def main():
-    app = Application.builder().token("8622094597:AAH96HVAf6t6lMJwYceAVcuLENVTsCcJZq8").build()
+    app = Application.builder().token("8622094597:AAGV9sgZpWEf3c8W5t6z0gKSREgZW_DGht0").build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("congrats", congrats))
     print("Бот запущен... Нажми Ctrl+C для остановки.")
